@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
 
+const base = import.meta.env.BASE_URL;
+
 const experiences = [
   {
-    src: "/Shopbop_Logo.jpg",
+    src: `${base}Shopbop_Logo.jpg`,
     alt: "Shopbop logo",
     name: "Shopbop",
     fit: "contain",
@@ -19,7 +21,7 @@ const experiences = [
     },
   },
   {
-    src: "/FICO-logo.jpg",
+    src: `${base}FICO-logo.jpg`,
     alt: "FICO logo",
     name: "FICO",
     fit: "contain",
@@ -49,7 +51,7 @@ const experiences = [
     },
   },
   {
-    src: "/GXS-Logo.png",
+    src: `${base}GXS-Logo.png`,
     alt: "GXS logo",
     name: "GXS",
     fit: "cover",
@@ -67,7 +69,7 @@ const experiences = [
     },
   },
   {
-    src: "/UWHealth-Logo.png",
+    src: `${base}UWHealth-Logo.png`,
     alt: "UW Health logo",
     name: "UW Health",
     fit: "cover",
@@ -286,7 +288,7 @@ function App() {
           </nav>
           <a
             className="btn btn-small"
-            href="/Anirudh_Kompella_Resume_Feb26.pdf"
+            href={`${base}Anirudh_Kompella_Resume_Feb26.pdf`}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -311,7 +313,7 @@ function App() {
                 </a>
                 <a
                   className="btn btn-ghost"
-                  href="/Anirudh_Kompella_Resume_Feb26.pdf"
+                  href={`${base}Anirudh_Kompella_Resume_Feb26.pdf`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -359,7 +361,7 @@ function App() {
                 >
                   <div className="education-seal">
                     <img
-                      src="/uw-madison-logo.png"
+                      src={`${base}uw-madison-logo.png`}
                       alt="UW-Madison logo"
                       className="education-seal-img"
                       loading="lazy"
