@@ -106,9 +106,9 @@ const strengths = [
     text: "Built tracking workflows for monitoring and visualizing flight movement and status updates.",
   },
   {
-    title: "BadgerChat",
-    text: "Multi-interface chat platform integrating web, mobile, and AI-powered conversation features.",
-    href: "https://github.com/CS571-S25/hw9-kingcoder2806",
+    title: "FinLens SG",
+    text: "Independent comparison tool for Singapore retail-banking rates across 7 major banks, with an AI assistant for personalized rate insights and email alerts.",
+    href: "https://github.com/kingcoder2806/FinLensSG",
   },
   {
     title: "RISC Processor",
@@ -121,9 +121,9 @@ const strengths = [
     href: "https://github.com/kingcoder2806/Shopping_Cart",
   },
   {
-    title: "Link Saver",
-    text: "Created a productivity utility for organizing, storing, and quickly retrieving saved web resources.",
-    href: "https://github.com/kingcoder2806/Link-Saver",
+    title: "BadgerChat",
+    text: "Multi-interface chat platform integrating web, mobile, and AI-powered conversation features.",
+    href: "https://github.com/CS571-S25/hw9-kingcoder2806",
   },
 ];
 
